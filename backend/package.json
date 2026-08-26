@@ -1,0 +1,28 @@
+{
+  "name": "letter-game-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test",
+    "prisma:generate": "bunx prisma generate",
+    "prisma:migrate": "bunx prisma migrate dev",
+    "prisma:deploy": "bunx prisma migrate deploy",
+    "prisma:studio": "bunx prisma studio"
+  },
+  "dependencies": {
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.10.4",
+    "@prisma/client": "^5.20.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/bun": "latest",
+    "typescript": "^5.6.3"
+  }
+}
