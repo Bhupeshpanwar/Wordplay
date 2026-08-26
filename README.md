@@ -184,7 +184,7 @@ Keep this terminal running.
 
 ---
 
-## 8. Run Backend Tests
+## 8. Run Backend Tests(optional)
 
 Open another terminal and go to the backend directory:
 
